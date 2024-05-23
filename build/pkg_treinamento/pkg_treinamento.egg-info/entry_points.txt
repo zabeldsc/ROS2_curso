@@ -1,3 +1,4 @@
 [console_scripts]
-
+listener1 = pkg_treinamento.sub1:main
+talker = pkg_treinamento.pub:main
 

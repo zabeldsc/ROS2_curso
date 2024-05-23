@@ -9,6 +9,9 @@ setup.py
 ../../build/pkg_treinamento/pkg_treinamento.egg-info/top_level.txt
 ../../build/pkg_treinamento/pkg_treinamento.egg-info/zip-safe
 pkg_treinamento/__init__.py
+pkg_treinamento/counter10.py
+pkg_treinamento/pub.py
+pkg_treinamento/sub1.py
 resource/pkg_treinamento
 test/test_copyright.py
 test/test_flake8.py
