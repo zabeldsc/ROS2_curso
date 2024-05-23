@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'talker = pkg_treinamento.pub:main',
             'listener1 = pkg_treinamento.sub1:main',
+            'listener2 = pkg_treinamento.sub2:main',
         ],
     },
 )

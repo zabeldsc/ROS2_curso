@@ -12,6 +12,7 @@ pkg_treinamento/__init__.py
 pkg_treinamento/counter10.py
 pkg_treinamento/pub.py
 pkg_treinamento/sub1.py
+pkg_treinamento/sub2.py
 resource/pkg_treinamento
 test/test_copyright.py
 test/test_flake8.py
