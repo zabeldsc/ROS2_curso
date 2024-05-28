@@ -23,7 +23,7 @@ def main(args=None):
     rclpy.init(args=args)
     publicador = Publicador()
     rclpy.spin(publicador)
-    minimalpublicador_publisher.destroy_node()
+    publicador.destroy_node()
     rclpy.shutdown()
 
 
