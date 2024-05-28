@@ -11,6 +11,7 @@ setup.py
 pkg_treinamento/__init__.py
 pkg_treinamento/counter10.py
 pkg_treinamento/pub.py
+pkg_treinamento/radioreceiver.py
 pkg_treinamento/radiostation.py
 pkg_treinamento/sub1.py
 resource/pkg_treinamento

@@ -23,6 +23,7 @@ setup(
             'palestrante = pkg_treinamento.pub:main',
             'ouvinte1 = pkg_treinamento.sub1:main',
             'radiostation = pkg_treinamento.radiostation:main',
+            'radioreceiver = pkg_treinamento.radioreceiver:main',
         ],
     },
 )
