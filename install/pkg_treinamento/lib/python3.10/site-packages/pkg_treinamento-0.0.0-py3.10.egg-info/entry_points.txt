@@ -1,5 +1,4 @@
 [console_scripts]
-listener1 = pkg_treinamento.sub1:main
-listener2 = pkg_treinamento.sub2:main
-talker = pkg_treinamento.pub:main
+ouvinte1 = pkg_treinamento.sub1:main
+palestrante = pkg_treinamento.pub:main
 

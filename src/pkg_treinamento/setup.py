@@ -20,9 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talker = pkg_treinamento.pub:main',
-            'listener1 = pkg_treinamento.sub1:main',
-            'listener2 = pkg_treinamento.sub2:main',
+            'palestrante = pkg_treinamento.pub:main',
+            'ouvinte1 = pkg_treinamento.sub1:main',
         ],
     },
 )
