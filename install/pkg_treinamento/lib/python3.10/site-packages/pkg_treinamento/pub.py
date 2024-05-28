@@ -3,13 +3,19 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 
+# A Classe Publicador herda da Classe Node
+
 class Publicador(Node):
+
+    # Construtor
 
     def __init__(self):
         super().__init__('Palestrante')
         self.publisher_ = self.create_publisher(String, 'chatter', 10)
         self.timer = self.create_timer(0.5, self.timer_callback)
         self.i = 0
+
+    # Método
 
     def timer_callback(self):
         msg = String()
@@ -23,7 +29,6 @@ def main(args=None):
     rclpy.init(args=args)
     publicador = Publicador()
     rclpy.spin(publicador)
-    minimalpublicador_publisher.destroy_node()
     rclpy.shutdown()
 
 

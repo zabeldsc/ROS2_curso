@@ -22,7 +22,6 @@ def main(args=None):
     rclpy.init(args=args)
     subscrito = Subscriber1()
     rclpy.spin(subscrito)
-    subscrito.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':

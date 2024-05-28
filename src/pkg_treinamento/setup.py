@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'palestrante = pkg_treinamento.pub:main',
             'ouvinte1 = pkg_treinamento.sub1:main',
+            'radiostation = pkg_treinamento.radiostation:main',
         ],
     },
 )

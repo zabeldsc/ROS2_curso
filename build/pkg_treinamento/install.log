@@ -1,8 +1,10 @@
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/counter10.py
+/home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/radiostation.py
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/sub1.py
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/pub.py
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__init__.py
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/counter10.cpython-310.pyc
+/home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/radiostation.cpython-310.pyc
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/sub1.cpython-310.pyc
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/pub.cpython-310.pyc
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/__init__.cpython-310.pyc
@@ -17,3 +19,4 @@
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento-0.0.0-py3.10.egg-info/entry_points.txt
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento/ouvinte1
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento/palestrante
+/home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento/radiostation

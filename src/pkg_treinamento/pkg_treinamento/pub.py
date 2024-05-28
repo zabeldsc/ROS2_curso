@@ -29,7 +29,6 @@ def main(args=None):
     rclpy.init(args=args)
     publicador = Publicador()
     rclpy.spin(publicador)
-    publicador.destroy_node()
     rclpy.shutdown()
 
 

@@ -1,4 +1,5 @@
 [console_scripts]
 ouvinte1 = pkg_treinamento.sub1:main
 palestrante = pkg_treinamento.pub:main
+radiostation = pkg_treinamento.radiostation:main
 
