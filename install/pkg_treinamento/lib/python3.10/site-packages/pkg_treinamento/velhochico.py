@@ -10,17 +10,16 @@ class VelhoChico(Node):
         self._subscriber = self.create_subscription (String, "FM1075", self.receber_mensagem, 10)
         self.publisher_ = self.create_publisher(String, "FM1031", 10)
         self.timer = self.create_timer(10, self.publicar_mensagem)
-        self.mensagem = None
+        self.mensagem = String()
 
     def receber_mensagem(self, msg):
         self.get_logger().info("Estou escutando: " + str(msg.data))
-        self.mensagem = 'Retransmitindo - ' + msg.data
+        self.mensagem.data = 'Retransmitindo - ' + msg.data
 
     def publicar_mensagem(self):
-        mensagem = String()
-        mensagem.data = self.mensagem
-        self.publisher_.publish(mensagem)
-        self.get_logger().info('Publicando: "%s"' % mensagem.data)
+
+        self.publisher_.publish(self.mensagem)
+        self.get_logger().info('Publicando: "%s"' % self.mensagem.data)
 
 def main(args=None):
 
