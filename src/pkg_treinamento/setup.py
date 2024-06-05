@@ -26,6 +26,7 @@ setup(
             'radioreceiver = pkg_treinamento.radioreceiver:main',
             'educadora = pkg_treinamento.educadora:main',
             'velhochico = pkg_treinamento.velhochico:main',
+            'oeste = pkg_treinamento.oeste:main',
         ],
     },
 )
