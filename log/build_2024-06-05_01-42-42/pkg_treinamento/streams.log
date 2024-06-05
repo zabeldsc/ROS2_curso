@@ -1,0 +1,28 @@
+[0.408s] Invoking command in '/home/isabel/Repositórios/ROS2_curso/src/pkg_treinamento': PYTHONPATH=/home/isabel/Repositórios/ROS2_curso/build/pkg_treinamento/prefix_override:/home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_treinamento build --build-base /home/isabel/Repositórios/ROS2_curso/build/pkg_treinamento/build install --record /home/isabel/Repositórios/ROS2_curso/build/pkg_treinamento/install.log --single-version-externally-managed install_data
+[0.548s] running egg_info
+[0.548s] writing ../../build/pkg_treinamento/pkg_treinamento.egg-info/PKG-INFO
+[0.548s] writing dependency_links to ../../build/pkg_treinamento/pkg_treinamento.egg-info/dependency_links.txt
+[0.549s] writing entry points to ../../build/pkg_treinamento/pkg_treinamento.egg-info/entry_points.txt
+[0.549s] writing requirements to ../../build/pkg_treinamento/pkg_treinamento.egg-info/requires.txt
+[0.549s] writing top-level names to ../../build/pkg_treinamento/pkg_treinamento.egg-info/top_level.txt
+[0.550s] reading manifest file '../../build/pkg_treinamento/pkg_treinamento.egg-info/SOURCES.txt'
+[0.550s] writing manifest file '../../build/pkg_treinamento/pkg_treinamento.egg-info/SOURCES.txt'
+[0.550s] running build
+[0.550s] running build_py
+[0.550s] copying pkg_treinamento/educadora.py -> /home/isabel/Repositórios/ROS2_curso/build/pkg_treinamento/build/lib/pkg_treinamento
+[0.551s] running install
+[0.551s] running install_lib
+[0.551s] copying /home/isabel/Repositórios/ROS2_curso/build/pkg_treinamento/build/lib/pkg_treinamento/educadora.py -> /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento
+[0.552s] byte-compiling /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/educadora.py to educadora.cpython-310.pyc
+[0.552s] running install_data
+[0.552s] running install_egg_info
+[0.553s] removing '/home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento-0.0.0-py3.10.egg-info' (and everything under it)
+[0.553s] Copying ../../build/pkg_treinamento/pkg_treinamento.egg-info to /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento-0.0.0-py3.10.egg-info
+[0.554s] running install_scripts
+[0.568s] Installing educadora script to /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.568s] Installing ouvinte1 script to /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.568s] Installing palestrante script to /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.568s] Installing radioreceiver script to /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.568s] Installing radiostation script to /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.568s] writing list of installed files to '/home/isabel/Repositórios/ROS2_curso/build/pkg_treinamento/install.log'
+[0.582s] Invoked command in '/home/isabel/Repositórios/ROS2_curso/src/pkg_treinamento' returned '0': PYTHONPATH=/home/isabel/Repositórios/ROS2_curso/build/pkg_treinamento/prefix_override:/home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_treinamento build --build-base /home/isabel/Repositórios/ROS2_curso/build/pkg_treinamento/build install --record /home/isabel/Repositórios/ROS2_curso/build/pkg_treinamento/install.log --single-version-externally-managed install_data

@@ -3,12 +3,16 @@
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/sub1.py
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/pub.py
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__init__.py
+/home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/educadora.py
+/home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/velhochico.py
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/radioreceiver.py
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/counter10.cpython-310.pyc
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/radiostation.cpython-310.pyc
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/sub1.cpython-310.pyc
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/pub.cpython-310.pyc
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/__init__.cpython-310.pyc
+/home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/educadora.cpython-310.pyc
+/home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/velhochico.cpython-310.pyc
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/radioreceiver.cpython-310.pyc
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/share/ament_index/resource_index/packages/pkg_treinamento
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/share/pkg_treinamento/package.xml
@@ -19,7 +23,9 @@
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento-0.0.0-py3.10.egg-info/zip-safe
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento-0.0.0-py3.10.egg-info/top_level.txt
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento-0.0.0-py3.10.egg-info/entry_points.txt
+/home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento/educadora
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento/ouvinte1
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento/palestrante
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento/radioreceiver
 /home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento/radiostation
+/home/isabel/Repositórios/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento/velhochico

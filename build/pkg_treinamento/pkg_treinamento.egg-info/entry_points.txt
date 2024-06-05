@@ -1,6 +1,8 @@
 [console_scripts]
+educadora = pkg_treinamento.educadora:main
 ouvinte1 = pkg_treinamento.sub1:main
 palestrante = pkg_treinamento.pub:main
 radioreceiver = pkg_treinamento.radioreceiver:main
 radiostation = pkg_treinamento.radiostation:main
+velhochico = pkg_treinamento.velhochico:main
 
