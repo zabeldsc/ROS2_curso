@@ -1,4 +1,5 @@
 [console_scripts]
+calculatorserver = pkg_treinamento.calculatorserver:main
 educadora = pkg_treinamento.educadora:main
 oeste = pkg_treinamento.oeste:main
 ouvinte1 = pkg_treinamento.sub1:main

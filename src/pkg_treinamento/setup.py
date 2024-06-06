@@ -27,6 +27,7 @@ setup(
             'educadora = pkg_treinamento.educadora:main',
             'velhochico = pkg_treinamento.velhochico:main',
             'oeste = pkg_treinamento.oeste:main',
+            'calculatorserver = pkg_treinamento.calculatorserver:main',
         ],
     },
 )
