@@ -84,6 +84,7 @@ rosidl_generator_c/pkg_interfaces/msg/hardware_status.h: /opt/ros/humble/share/r
 rosidl_generator_c/pkg_interfaces/msg/hardware_status.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/pkg_interfaces/msg/hardware_status.h: rosidl_adapter/pkg_interfaces/msg/HardwareStatus.idl
 rosidl_generator_c/pkg_interfaces/msg/hardware_status.h: rosidl_adapter/pkg_interfaces/srv/ComputeRectangleArea.idl
+rosidl_generator_c/pkg_interfaces/msg/hardware_status.h: rosidl_adapter/pkg_interfaces/srv/CalculadoraSrv.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/uav_team/ROS2_curso/build/pkg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c__arguments.json
 
@@ -108,11 +109,26 @@ rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__struct.h: r
 rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.h: rosidl_generator_c/pkg_interfaces/msg/hardware_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.h
 
+rosidl_generator_c/pkg_interfaces/srv/calculadora_srv.h: rosidl_generator_c/pkg_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg_interfaces/srv/calculadora_srv.h
+
+rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.h: rosidl_generator_c/pkg_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.h
+
+rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__struct.h: rosidl_generator_c/pkg_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__struct.h
+
+rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__type_support.h: rosidl_generator_c/pkg_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__type_support.h
+
 rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.c: rosidl_generator_c/pkg_interfaces/msg/hardware_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.c
 
 rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c: rosidl_generator_c/pkg_interfaces/msg/hardware_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c
+
+rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c: rosidl_generator_c/pkg_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c
 
 CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.c.o: CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.c.o: rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.c
@@ -142,21 +158,37 @@ CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfa
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c -o CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c.s
 
+CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.o: CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.o: rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c
+CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.o: CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uav_team/ROS2_curso/build/pkg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.o -MF CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.o.d -o CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.o -c /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c
+
+CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c > CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.i
+
+CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c -o CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.s
+
 # Object files for target pkg_interfaces__rosidl_generator_c
 pkg_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.c.o" \
-"CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c.o"
+"CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c.o" \
+"CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.o"
 
 # External object files for target pkg_interfaces__rosidl_generator_c
 pkg_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libpkg_interfaces__rosidl_generator_c.so: CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.c.o
 libpkg_interfaces__rosidl_generator_c.so: CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c.o
+libpkg_interfaces__rosidl_generator_c.so: CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.o
 libpkg_interfaces__rosidl_generator_c.so: CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/build.make
 libpkg_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libpkg_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libpkg_interfaces__rosidl_generator_c.so: CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uav_team/ROS2_curso/build/pkg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libpkg_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uav_team/ROS2_curso/build/pkg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libpkg_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -172,7 +204,12 @@ CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg
 CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__struct.h
 CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__type_support.h
 CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg_interfaces/msg/hardware_status.h
+CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg_interfaces/srv/calculadora_srv.h
 CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg_interfaces/srv/compute_rectangle_area.h
+CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c
+CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.h
+CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__struct.h
+CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__type_support.h
 CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c
 CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.h
 CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__struct.h

@@ -1,12 +1,16 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/msg/detail/hardware_status__type_support.c.o"
   "CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/msg/detail/hardware_status__type_support.c.o.d"
+  "CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/calculadora_srv__type_support.c.o"
+  "CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/calculadora_srv__type_support.c.o.d"
   "CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.c.o"
   "CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.c.o.d"
   "libpkg_interfaces__rosidl_typesupport_introspection_c.pdb"
   "libpkg_interfaces__rosidl_typesupport_introspection_c.so"
   "rosidl_typesupport_introspection_c/pkg_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/pkg_interfaces/msg/detail/hardware_status__type_support.c"
+  "rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/calculadora_srv__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/calculadora_srv__type_support.c"
   "rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.c"
 )

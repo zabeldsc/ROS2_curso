@@ -1,4 +1,5 @@
 [console_scripts]
+calculadorabasica = pkg_treinamento.calculadorabasica:main
 calculatorclient = pkg_treinamento.calculatorclient:main
 calculatorserver = pkg_treinamento.calculatorserver:main
 educadora = pkg_treinamento.educadora:main

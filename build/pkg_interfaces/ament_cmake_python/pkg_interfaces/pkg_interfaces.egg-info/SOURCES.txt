@@ -7,4 +7,5 @@ pkg_interfaces.egg-info/top_level.txt
 pkg_interfaces/msg/__init__.py
 pkg_interfaces/msg/_hardware_status.py
 pkg_interfaces/srv/__init__.py
+pkg_interfaces/srv/_calculadora_srv.py
 pkg_interfaces/srv/_compute_rectangle_area.py

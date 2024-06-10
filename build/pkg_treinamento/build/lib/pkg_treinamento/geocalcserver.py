@@ -12,7 +12,7 @@ class GeoCalcServer(Node):
     def callbackgeo(self, request, response):
         response.area = request.width * request.height
         self.get_logger().info("Recebi os números " + str(request.width) + " e "
-        + str(request.height) + " para base e altura e estou retornando a área de"
+        + str(request.height) + " para base e altura e estou retornando a área de "
         + str(response.area))
         return response
     

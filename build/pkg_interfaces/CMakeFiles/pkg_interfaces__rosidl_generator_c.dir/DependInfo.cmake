@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.c" "CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.c.o" "gcc" "CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.c.o.d"
+  "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c" "CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.o" "gcc" "CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.o.d"
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c" "CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c.o" "gcc" "CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c.o.d"
   )
 
@@ -18,7 +19,12 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.h" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/hardware_status.h"
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__struct.h" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/hardware_status.h"
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__type_support.h" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/hardware_status.h"
+  "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/calculadora_srv.h" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/hardware_status.h"
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/compute_rectangle_area.h" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/hardware_status.h"
+  "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/hardware_status.h"
+  "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.h" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/hardware_status.h"
+  "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__struct.h" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/hardware_status.h"
+  "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__type_support.h" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/hardware_status.h"
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/hardware_status.h"
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.h" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/hardware_status.h"
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__struct.h" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/hardware_status.h"

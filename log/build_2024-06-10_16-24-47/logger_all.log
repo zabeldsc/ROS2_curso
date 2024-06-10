@@ -1,0 +1,200 @@
+[0.085s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.086s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f65eb9494e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f65eb949090>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f65eb949090>>)
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.230s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/uav_team/ROS2_curso'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_interfaces' with type 'ros.ament_cmake' and name 'pkg_interfaces'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_treinamento) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_treinamento) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_treinamento) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_treinamento) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_treinamento) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_treinamento) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_treinamento) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_treinamento) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_treinamento) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_treinamento' with type 'ros.ament_python' and name 'pkg_treinamento'
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.263s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/uav_team/ROS2_curso/install
+[0.263s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/uav_team/cbr_2024/ros2_drone_ws/install
+[0.276s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/humble
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uav_team/ROS2_curso/build/pkg_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uav_team/ROS2_curso/install/pkg_interfaces', 'merge_install': False, 'path': '/home/uav_team/ROS2_curso/src/pkg_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_treinamento' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_treinamento' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_treinamento' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_treinamento' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_treinamento' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_treinamento' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_treinamento' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_treinamento' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pkg_treinamento' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_treinamento' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uav_team/ROS2_curso/build/pkg_treinamento', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uav_team/ROS2_curso/install/pkg_treinamento', 'merge_install': False, 'path': '/home/uav_team/ROS2_curso/src/pkg_treinamento', 'symlink_install': False, 'test_result_base': None}
+[0.310s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.311s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uav_team/ROS2_curso/src/pkg_interfaces' with build type 'ament_cmake'
+[0.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uav_team/ROS2_curso/src/pkg_interfaces'
+[0.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uav_team/ROS2_curso/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uav_team/ROS2_curso/install/pkg_treinamento:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_camera:/opt/ros/humble /usr/bin/cmake --build /home/uav_team/ROS2_curso/build/pkg_interfaces -- -j8 -l8
+[0.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uav_team/ROS2_curso/build/pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uav_team/ROS2_curso/install/pkg_treinamento:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_camera:/opt/ros/humble /usr/bin/cmake --build /home/uav_team/ROS2_curso/build/pkg_interfaces -- -j8 -l8
+[0.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uav_team/ROS2_curso/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uav_team/ROS2_curso/install/pkg_treinamento:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_camera:/opt/ros/humble /usr/bin/cmake --install /home/uav_team/ROS2_curso/build/pkg_interfaces
+[0.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_interfaces)
+[0.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uav_team/ROS2_curso/build/pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uav_team/ROS2_curso/install/pkg_treinamento:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_camera:/opt/ros/humble /usr/bin/cmake --install /home/uav_team/ROS2_curso/build/pkg_interfaces
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces' for CMake module files
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces' for CMake config files
+[0.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_interfaces', 'cmake_prefix_path')
+[0.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/hook/cmake_prefix_path.ps1'
+[0.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/hook/cmake_prefix_path.dsv'
+[0.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/hook/cmake_prefix_path.sh'
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces/lib'
+[0.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_interfaces', 'ld_library_path_lib')
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/hook/ld_library_path_lib.ps1'
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/hook/ld_library_path_lib.dsv'
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/hook/ld_library_path_lib.sh'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces/bin'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/pkgconfig/pkg_interfaces.pc'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/python3.10/site-packages'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces/bin'
+[0.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.ps1'
+[0.855s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.dsv'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.sh'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.bash'
+[0.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.zsh'
+[0.857s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uav_team/ROS2_curso/install/pkg_interfaces/share/colcon-core/packages/pkg_interfaces)
+[0.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_interfaces)
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces' for CMake module files
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces' for CMake config files
+[0.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_interfaces', 'cmake_prefix_path')
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/hook/cmake_prefix_path.ps1'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/hook/cmake_prefix_path.dsv'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/hook/cmake_prefix_path.sh'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces/lib'
+[0.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_interfaces', 'ld_library_path_lib')
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/hook/ld_library_path_lib.ps1'
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/hook/ld_library_path_lib.dsv'
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/hook/ld_library_path_lib.sh'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces/bin'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/pkgconfig/pkg_interfaces.pc'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/python3.10/site-packages'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_interfaces/bin'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.ps1'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.dsv'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.sh'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.bash'
+[0.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.zsh'
+[0.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uav_team/ROS2_curso/install/pkg_interfaces/share/colcon-core/packages/pkg_interfaces)
+[0.989s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/uav_team/ROS2_curso/src/pkg_treinamento' with build type 'ament_python'
+[0.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_treinamento', 'ament_prefix_path')
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uav_team/ROS2_curso/install/pkg_treinamento/share/pkg_treinamento/hook/ament_prefix_path.ps1'
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uav_team/ROS2_curso/install/pkg_treinamento/share/pkg_treinamento/hook/ament_prefix_path.dsv'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uav_team/ROS2_curso/install/pkg_treinamento/share/pkg_treinamento/hook/ament_prefix_path.sh'
+[0.991s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.991s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.219s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/uav_team/ROS2_curso/src/pkg_treinamento'
+[1.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uav_team/ROS2_curso/src/pkg_treinamento': PYTHONPATH=/home/uav_team/ROS2_curso/build/pkg_treinamento/prefix_override:/home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_treinamento build --build-base /home/uav_team/ROS2_curso/build/pkg_treinamento/build install --record /home/uav_team/ROS2_curso/build/pkg_treinamento/install.log --single-version-externally-managed install_data
+[1.788s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_treinamento' for CMake module files
+[1.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uav_team/ROS2_curso/src/pkg_treinamento' returned '0': PYTHONPATH=/home/uav_team/ROS2_curso/build/pkg_treinamento/prefix_override:/home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_treinamento build --build-base /home/uav_team/ROS2_curso/build/pkg_treinamento/build install --record /home/uav_team/ROS2_curso/build/pkg_treinamento/install.log --single-version-externally-managed install_data
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_treinamento' for CMake config files
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_treinamento/lib'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_treinamento/bin'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkgconfig/pkg_treinamento.pc'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages'
+[1.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_treinamento', 'pythonpath')
+[1.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uav_team/ROS2_curso/install/pkg_treinamento/share/pkg_treinamento/hook/pythonpath.ps1'
+[1.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uav_team/ROS2_curso/install/pkg_treinamento/share/pkg_treinamento/hook/pythonpath.dsv'
+[1.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uav_team/ROS2_curso/install/pkg_treinamento/share/pkg_treinamento/hook/pythonpath.sh'
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/uav_team/ROS2_curso/install/pkg_treinamento/bin'
+[1.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_treinamento)
+[1.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/uav_team/ROS2_curso/install/pkg_treinamento/share/pkg_treinamento/package.ps1'
+[1.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uav_team/ROS2_curso/install/pkg_treinamento/share/pkg_treinamento/package.dsv'
+[1.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/uav_team/ROS2_curso/install/pkg_treinamento/share/pkg_treinamento/package.sh'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/uav_team/ROS2_curso/install/pkg_treinamento/share/pkg_treinamento/package.bash'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/uav_team/ROS2_curso/install/pkg_treinamento/share/pkg_treinamento/package.zsh'
+[1.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uav_team/ROS2_curso/install/pkg_treinamento/share/colcon-core/packages/pkg_treinamento)
+[1.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.794s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.799s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.799s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.799s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.809s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.809s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uav_team/ROS2_curso/install/local_setup.ps1'
+[1.810s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/uav_team/ROS2_curso/install/_local_setup_util_ps1.py'
+[1.812s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uav_team/ROS2_curso/install/setup.ps1'
+[1.813s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uav_team/ROS2_curso/install/local_setup.sh'
+[1.813s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/uav_team/ROS2_curso/install/_local_setup_util_sh.py'
+[1.814s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uav_team/ROS2_curso/install/setup.sh'
+[1.815s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uav_team/ROS2_curso/install/local_setup.bash'
+[1.815s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uav_team/ROS2_curso/install/setup.bash'
+[1.816s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uav_team/ROS2_curso/install/local_setup.zsh'
+[1.817s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uav_team/ROS2_curso/install/setup.zsh'

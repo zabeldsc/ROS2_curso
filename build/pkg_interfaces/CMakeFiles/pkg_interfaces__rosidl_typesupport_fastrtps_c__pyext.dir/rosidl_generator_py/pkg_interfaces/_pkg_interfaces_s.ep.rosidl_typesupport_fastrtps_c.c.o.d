@@ -209,4 +209,7 @@ CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gener
  /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.h \
  /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.h \
  /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__struct.h \
- /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.h
+ /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.h \
+ /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__type_support.h \
+ /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__struct.h \
+ /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.h

@@ -364,6 +364,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_interfaces/srv" TYPE FILE FILES "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_adapter/pkg_interfaces/srv/CalculadoraSrv.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_interfaces/msg" TYPE FILE FILES "/home/uav_team/ROS2_curso/src/pkg_interfaces/msg/HardwareStatus.msg")
 endif()
 
@@ -377,6 +381,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_interfaces/srv" TYPE FILE FILES "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_cmake/srv/ComputeRectangleArea_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_interfaces/srv" TYPE FILE FILES "/home/uav_team/ROS2_curso/src/pkg_interfaces/srv/CalculadoraSrv.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_interfaces/srv" TYPE FILE FILES "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_cmake/srv/CalculadoraSrv_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_interfaces/srv" TYPE FILE FILES "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_cmake/srv/CalculadoraSrv_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

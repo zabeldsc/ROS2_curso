@@ -31,6 +31,7 @@ setup(
             'calculatorclient = pkg_treinamento.calculatorclient:main',
             'hardwarestatus = pkg_treinamento.hardwarestatus:main',
             'geocalcserver = pkg_treinamento.geocalcserver:main',
+            'calculadorabasica = pkg_treinamento.calculadorabasica:main',
         ],
     },
 )

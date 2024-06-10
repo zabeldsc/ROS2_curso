@@ -10,7 +10,9 @@ class CalculatorServer(Node):
         self.get_logger().info("A calculadora está on")
 
     def callbacktwoints(self, request, response):
+
         response.sum = request.a + request.b
+        
         self.get_logger().info(
             "Recebi os números " + str(request.a) + " e " + str(request.b) +
             " e estou retornando " + str(response.sum)

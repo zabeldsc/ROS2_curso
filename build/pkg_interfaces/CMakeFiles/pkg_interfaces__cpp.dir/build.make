@@ -74,6 +74,10 @@ CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/compute_
 CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/detail/compute_rectangle_area__builder.hpp
 CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/detail/compute_rectangle_area__struct.hpp
 CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/calculadora_srv.hpp
+CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/detail/calculadora_srv__builder.hpp
+CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/detail/calculadora_srv__struct.hpp
+CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/detail/calculadora_srv__traits.hpp
 
 rosidl_generator_cpp/pkg_interfaces/msg/hardware_status.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/pkg_interfaces/msg/hardware_status.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -92,6 +96,7 @@ rosidl_generator_cpp/pkg_interfaces/msg/hardware_status.hpp: /opt/ros/humble/sha
 rosidl_generator_cpp/pkg_interfaces/msg/hardware_status.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/hardware_status.hpp: rosidl_adapter/pkg_interfaces/msg/HardwareStatus.idl
 rosidl_generator_cpp/pkg_interfaces/msg/hardware_status.hpp: rosidl_adapter/pkg_interfaces/srv/ComputeRectangleArea.idl
+rosidl_generator_cpp/pkg_interfaces/msg/hardware_status.hpp: rosidl_adapter/pkg_interfaces/srv/CalculadoraSrv.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/uav_team/ROS2_curso/build/pkg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -116,12 +121,28 @@ rosidl_generator_cpp/pkg_interfaces/srv/detail/compute_rectangle_area__struct.hp
 rosidl_generator_cpp/pkg_interfaces/srv/detail/compute_rectangle_area__traits.hpp: rosidl_generator_cpp/pkg_interfaces/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg_interfaces/srv/detail/compute_rectangle_area__traits.hpp
 
+rosidl_generator_cpp/pkg_interfaces/srv/calculadora_srv.hpp: rosidl_generator_cpp/pkg_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg_interfaces/srv/calculadora_srv.hpp
+
+rosidl_generator_cpp/pkg_interfaces/srv/detail/calculadora_srv__builder.hpp: rosidl_generator_cpp/pkg_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg_interfaces/srv/detail/calculadora_srv__builder.hpp
+
+rosidl_generator_cpp/pkg_interfaces/srv/detail/calculadora_srv__struct.hpp: rosidl_generator_cpp/pkg_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg_interfaces/srv/detail/calculadora_srv__struct.hpp
+
+rosidl_generator_cpp/pkg_interfaces/srv/detail/calculadora_srv__traits.hpp: rosidl_generator_cpp/pkg_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg_interfaces/srv/detail/calculadora_srv__traits.hpp
+
 pkg_interfaces__cpp: CMakeFiles/pkg_interfaces__cpp
 pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/detail/hardware_status__builder.hpp
 pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/detail/hardware_status__struct.hpp
 pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/detail/hardware_status__traits.hpp
 pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/hardware_status.hpp
+pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/calculadora_srv.hpp
 pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/compute_rectangle_area.hpp
+pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/detail/calculadora_srv__builder.hpp
+pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/detail/calculadora_srv__struct.hpp
+pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/detail/calculadora_srv__traits.hpp
 pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/detail/compute_rectangle_area__builder.hpp
 pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/detail/compute_rectangle_area__struct.hpp
 pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/srv/detail/compute_rectangle_area__traits.hpp

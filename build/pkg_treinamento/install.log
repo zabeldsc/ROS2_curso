@@ -5,6 +5,7 @@
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/oeste.py
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/sub1.py
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/radioreceiver.py
+/home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/calculadorabasica.py
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/pub.py
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/educadora.py
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__init__.py
@@ -18,6 +19,7 @@
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/oeste.cpython-310.pyc
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/sub1.cpython-310.pyc
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/radioreceiver.cpython-310.pyc
+/home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/calculadorabasica.cpython-310.pyc
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/pub.cpython-310.pyc
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/educadora.cpython-310.pyc
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/__pycache__/__init__.cpython-310.pyc
@@ -33,6 +35,7 @@
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento-0.0.0-py3.10.egg-info/top_level.txt
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento-0.0.0-py3.10.egg-info/zip-safe
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento-0.0.0-py3.10.egg-info/dependency_links.txt
+/home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento/calculadorabasica
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento/calculatorclient
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento/calculatorserver
 /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento/educadora

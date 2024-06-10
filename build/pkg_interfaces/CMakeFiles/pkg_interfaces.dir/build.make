@@ -70,6 +70,9 @@ CMakeFiles/pkg_interfaces: /home/uav_team/ROS2_curso/src/pkg_interfaces/msg/Hard
 CMakeFiles/pkg_interfaces: /home/uav_team/ROS2_curso/src/pkg_interfaces/srv/ComputeRectangleArea.srv
 CMakeFiles/pkg_interfaces: rosidl_cmake/srv/ComputeRectangleArea_Request.msg
 CMakeFiles/pkg_interfaces: rosidl_cmake/srv/ComputeRectangleArea_Response.msg
+CMakeFiles/pkg_interfaces: /home/uav_team/ROS2_curso/src/pkg_interfaces/srv/CalculadoraSrv.srv
+CMakeFiles/pkg_interfaces: rosidl_cmake/srv/CalculadoraSrv_Request.msg
+CMakeFiles/pkg_interfaces: rosidl_cmake/srv/CalculadoraSrv_Response.msg
 
 pkg_interfaces: CMakeFiles/pkg_interfaces
 pkg_interfaces: CMakeFiles/pkg_interfaces.dir/build.make

@@ -1,0 +1,35 @@
+[0.536s] Invoking command in '/home/uav_team/ROS2_curso/src/pkg_treinamento': PYTHONPATH=/home/uav_team/ROS2_curso/build/pkg_treinamento/prefix_override:/home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_treinamento build --build-base /home/uav_team/ROS2_curso/build/pkg_treinamento/build install --record /home/uav_team/ROS2_curso/build/pkg_treinamento/install.log --single-version-externally-managed install_data
+[0.733s] running egg_info
+[0.733s] writing ../../build/pkg_treinamento/pkg_treinamento.egg-info/PKG-INFO
+[0.733s] writing dependency_links to ../../build/pkg_treinamento/pkg_treinamento.egg-info/dependency_links.txt
+[0.734s] writing entry points to ../../build/pkg_treinamento/pkg_treinamento.egg-info/entry_points.txt
+[0.734s] writing requirements to ../../build/pkg_treinamento/pkg_treinamento.egg-info/requires.txt
+[0.734s] writing top-level names to ../../build/pkg_treinamento/pkg_treinamento.egg-info/top_level.txt
+[0.736s] reading manifest file '../../build/pkg_treinamento/pkg_treinamento.egg-info/SOURCES.txt'
+[0.736s] writing manifest file '../../build/pkg_treinamento/pkg_treinamento.egg-info/SOURCES.txt'
+[0.737s] running build
+[0.737s] running build_py
+[0.737s] copying pkg_treinamento/calculadorabasica.py -> /home/uav_team/ROS2_curso/build/pkg_treinamento/build/lib/pkg_treinamento
+[0.738s] running install
+[0.738s] running install_lib
+[0.739s] copying /home/uav_team/ROS2_curso/build/pkg_treinamento/build/lib/pkg_treinamento/calculadorabasica.py -> /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento
+[0.740s] byte-compiling /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento/calculadorabasica.py to calculadorabasica.cpython-310.pyc
+[0.740s] running install_data
+[0.740s] running install_egg_info
+[0.742s] removing '/home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento-0.0.0-py3.10.egg-info' (and everything under it)
+[0.742s] Copying ../../build/pkg_treinamento/pkg_treinamento.egg-info to /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages/pkg_treinamento-0.0.0-py3.10.egg-info
+[0.743s] running install_scripts
+[0.761s] Installing calculadorabasica script to /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.761s] Installing calculatorclient script to /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.762s] Installing calculatorserver script to /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.762s] Installing educadora script to /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.762s] Installing geocalcserver script to /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.762s] Installing hardwarestatus script to /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.762s] Installing oeste script to /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.762s] Installing ouvinte1 script to /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.762s] Installing palestrante script to /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.762s] Installing radioreceiver script to /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.762s] Installing radiostation script to /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.763s] Installing velhochico script to /home/uav_team/ROS2_curso/install/pkg_treinamento/lib/pkg_treinamento
+[0.763s] writing list of installed files to '/home/uav_team/ROS2_curso/build/pkg_treinamento/install.log'
+[0.791s] Invoked command in '/home/uav_team/ROS2_curso/src/pkg_treinamento' returned '0': PYTHONPATH=/home/uav_team/ROS2_curso/build/pkg_treinamento/prefix_override:/home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_treinamento build --build-base /home/uav_team/ROS2_curso/build/pkg_treinamento/build install --record /home/uav_team/ROS2_curso/build/pkg_treinamento/install.log --single-version-externally-managed install_data

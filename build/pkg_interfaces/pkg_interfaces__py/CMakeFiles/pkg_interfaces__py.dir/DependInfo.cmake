@@ -18,6 +18,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/msg/_hardware_status.py" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/msg/_hardware_status_s.c" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/srv/__init__.py" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/srv/_calculadora_srv.py" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/srv/_calculadora_srv_s.c" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/srv/_compute_rectangle_area.py" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/srv/_compute_rectangle_area_s.c" "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )

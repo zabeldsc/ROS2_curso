@@ -9,6 +9,7 @@ setup.py
 ../../build/pkg_treinamento/pkg_treinamento.egg-info/top_level.txt
 ../../build/pkg_treinamento/pkg_treinamento.egg-info/zip-safe
 pkg_treinamento/__init__.py
+pkg_treinamento/calculadorabasica.py
 pkg_treinamento/calculatorclient.py
 pkg_treinamento/calculatorserver.py
 pkg_treinamento/counter10.py
