@@ -2,6 +2,8 @@
 calculatorclient = pkg_treinamento.calculatorclient:main
 calculatorserver = pkg_treinamento.calculatorserver:main
 educadora = pkg_treinamento.educadora:main
+geocalcserver = pkg_treinamento.geocalcserver:main
+hardwarestatus = pkg_treinamento.hardwarestatus:main
 oeste = pkg_treinamento.oeste:main
 ouvinte1 = pkg_treinamento.sub1:main
 palestrante = pkg_treinamento.pub:main

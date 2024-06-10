@@ -29,6 +29,8 @@ setup(
             'oeste = pkg_treinamento.oeste:main',
             'calculatorserver = pkg_treinamento.calculatorserver:main',
             'calculatorclient = pkg_treinamento.calculatorclient:main',
+            'hardwarestatus = pkg_treinamento.hardwarestatus:main',
+            'geocalcserver = pkg_treinamento.geocalcserver:main',
         ],
     },
 )

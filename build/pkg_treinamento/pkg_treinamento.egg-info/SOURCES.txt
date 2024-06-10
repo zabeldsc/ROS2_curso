@@ -13,6 +13,8 @@ pkg_treinamento/calculatorclient.py
 pkg_treinamento/calculatorserver.py
 pkg_treinamento/counter10.py
 pkg_treinamento/educadora.py
+pkg_treinamento/geocalcserver.py
+pkg_treinamento/hardwarestatus.py
 pkg_treinamento/oeste.py
 pkg_treinamento/pub.py
 pkg_treinamento/radioreceiver.py

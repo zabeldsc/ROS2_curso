@@ -1,0 +1,305 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (-) JobUnselected: {'identifier': 'pkg_treinamento'}
+[0.000216] (pkg_interfaces) JobQueued: {'identifier': 'pkg_interfaces', 'dependencies': OrderedDict()}
+[0.000263] (pkg_interfaces) JobStarted: {'identifier': 'pkg_interfaces'}
+[0.008163] (pkg_interfaces) JobProgress: {'identifier': 'pkg_interfaces', 'progress': 'cmake'}
+[0.008663] (pkg_interfaces) JobProgress: {'identifier': 'pkg_interfaces', 'progress': 'build'}
+[0.009262] (pkg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uav_team/ROS2_curso/build/pkg_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/uav_team/ROS2_curso/build/pkg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uav_team'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uav_team/ROS2_curso/install/pkg_interfaces/lib:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uav_team'), ('OLDPWD', '/home/uav_team'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1706'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1010/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/uav_team/ROS2_curso/install:/home/uav_team/cbr_2024/ros2_drone_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uav_team'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uav_team'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/acso-DC5A-S-1:@/tmp/.ICE-unix/1681,unix/acso-DC5A-S-1:/tmp/.ICE-unix/1681'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a259dad2_e75b_4a65_98c2_aed0282d12b8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1010'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1010/.mutter-Xwaylandauth.GX8GP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1010/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uav_team/ROS2_curso/install/pkg_interfaces:/home/uav_team/ROS2_curso/install/pkg_treinamento:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_tello_state:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_interfaces:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_controller:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_camera:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uav_team/ROS2_curso/build/pkg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages:/home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/uav_team/ROS2_curso/install/pkg_interfaces:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_tello_state:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_interfaces:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_controller:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_bringup:/home/uav_team/ROS2_curso/install/pkg_treinamento:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_camera:/opt/ros/humble')]), 'shell': False}
+[0.036536] (pkg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099311] (-) TimerEvent: {}
+[0.147498] (pkg_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.149434] (pkg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.151798] (pkg_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.183226] (pkg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199423] (-) TimerEvent: {}
+[0.299744] (-) TimerEvent: {}
+[0.400102] (-) TimerEvent: {}
+[0.476298] (pkg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.500192] (-) TimerEvent: {}
+[0.600484] (-) TimerEvent: {}
+[0.641369] (pkg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700943] (-) TimerEvent: {}
+[0.801252] (-) TimerEvent: {}
+[0.851059] (pkg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.872294] (pkg_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.892770] (pkg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.892970] (pkg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.893056] (pkg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.901365] (-) TimerEvent: {}
+[0.907700] (pkg_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.940525] (pkg_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.944617] (pkg_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/uav_team/ROS2_curso/build/pkg_interfaces\n'}
+[0.970197] (pkg_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.980349] (pkg_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.991564] (pkg_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_pkg_interfaces\n'}
+[1.001498] (-) TimerEvent: {}
+[1.101853] (-) TimerEvent: {}
+[1.202154] (-) TimerEvent: {}
+[1.215904] (pkg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.216735] (pkg_interfaces) StdoutLine: {'line': b'writing pkg_interfaces.egg-info/PKG-INFO\n'}
+[1.217028] (pkg_interfaces) StdoutLine: {'line': b'writing dependency_links to pkg_interfaces.egg-info/dependency_links.txt\n'}
+[1.217244] (pkg_interfaces) StdoutLine: {'line': b'writing top-level names to pkg_interfaces.egg-info/top_level.txt\n'}
+[1.220369] (pkg_interfaces) StdoutLine: {'line': b"reading manifest file 'pkg_interfaces.egg-info/SOURCES.txt'\n"}
+[1.221394] (pkg_interfaces) StdoutLine: {'line': b"writing manifest file 'pkg_interfaces.egg-info/SOURCES.txt'\n"}
+[1.281871] (pkg_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_pkg_interfaces_egg\n'}
+[1.282510] (pkg_interfaces) StdoutLine: {'line': b'[  5%] Built target pkg_interfaces__cpp\n'}
+[1.293469] (pkg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.294917] (pkg_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.295300] (pkg_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.298138] (pkg_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.302313] (-) TimerEvent: {}
+[1.310743] (pkg_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c.o\x1b[0m\n'}
+[1.311111] (pkg_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.c.o\x1b[0m\n'}
+[1.388137] (pkg_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libpkg_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.402406] (-) TimerEvent: {}
+[1.430772] (pkg_interfaces) StdoutLine: {'line': b'[ 20%] Built target pkg_interfaces__rosidl_generator_c\n'}
+[1.443554] (pkg_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.445363] (pkg_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.446670] (pkg_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.502537] (-) TimerEvent: {}
+[1.564542] (pkg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.583045] (pkg_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[1.583372] (pkg_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.602665] (-) TimerEvent: {}
+[1.614458] (pkg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.636280] (pkg_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[1.638957] (pkg_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.702786] (-) TimerEvent: {}
+[1.706785] (pkg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.732885] (pkg_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_interfaces/msg/detail/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.802948] (-) TimerEvent: {}
+[1.848839] (pkg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.869457] (pkg_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.903112] (-) TimerEvent: {}
+[1.913555] (pkg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.917788] (pkg_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[1.936162] (pkg_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[1.943709] (pkg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.974643] (pkg_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.981294] (pkg_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[1.982701] (pkg_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_interfaces/msg/detail/hardware_status__type_support_c.cpp.o\x1b[0m\n'}
+[1.998015] (pkg_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.003291] (-) TimerEvent: {}
+[2.011036] (pkg_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.c.o\x1b[0m\n'}
+[2.057080] (pkg_interfaces) StdoutLine: {'line': b'[ 61%] Built target pkg_interfaces__rosidl_typesupport_c\n'}
+[2.073452] (pkg_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o\x1b[0m\n'}
+[2.102216] (pkg_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libpkg_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.103450] (-) TimerEvent: {}
+[2.104219] (pkg_interfaces) StdoutLine: {'line': b'[ 66%] Built target pkg_interfaces__rosidl_typesupport_cpp\n'}
+[2.203594] (-) TimerEvent: {}
+[2.223318] (pkg_interfaces) StdoutLine: {'line': b'[ 66%] Built target pkg_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.244292] (pkg_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.303759] (-) TimerEvent: {}
+[2.359652] (pkg_interfaces) StdoutLine: {'line': b'[ 69%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.404208] (-) TimerEvent: {}
+[2.463503] (pkg_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.486083] (pkg_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.504366] (-) TimerEvent: {}
+[2.576154] (pkg_interfaces) StdoutLine: {'line': b'[ 74%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.576339] (pkg_interfaces) StdoutLine: {'line': b'[ 74%] Built target pkg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.598554] (pkg_interfaces) StdoutLine: {'line': b'[ 74%] Built target pkg_interfaces\n'}
+[2.604465] (-) TimerEvent: {}
+[2.622247] (pkg_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.704575] (-) TimerEvent: {}
+[2.804863] (-) TimerEvent: {}
+[2.905138] (-) TimerEvent: {}
+[2.984114] (pkg_interfaces) StdoutLine: {'line': b'[ 76%] Built target pkg_interfaces__py\n'}
+[2.995163] (pkg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_generator_py\x1b[0m\n'}
+[3.005256] (-) TimerEvent: {}
+[3.011401] (pkg_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pkg_interfaces/msg/_hardware_status_s.c.o\x1b[0m\n'}
+[3.011604] (pkg_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pkg_interfaces/srv/_compute_rectangle_area_s.c.o\x1b[0m\n'}
+[3.105376] (-) TimerEvent: {}
+[3.106419] (pkg_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg_interfaces/libpkg_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.149197] (pkg_interfaces) StdoutLine: {'line': b'[ 84%] Built target pkg_interfaces__rosidl_generator_py\n'}
+[3.160243] (pkg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.160435] (pkg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.160540] (pkg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.176018] (pkg_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.176241] (pkg_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.178319] (pkg_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.205499] (-) TimerEvent: {}
+[3.268850] (pkg_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.271859] (pkg_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.275187] (pkg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.305645] (-) TimerEvent: {}
+[3.306563] (pkg_interfaces) StdoutLine: {'line': b'[100%] Built target pkg_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.309977] (pkg_interfaces) StdoutLine: {'line': b'[100%] Built target pkg_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.313203] (pkg_interfaces) StdoutLine: {'line': b'[100%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.327187] (pkg_interfaces) CommandEnded: {'returncode': 0}
+[3.405715] (-) TimerEvent: {}
+[3.420076] (pkg_interfaces) JobProgress: {'identifier': 'pkg_interfaces', 'progress': 'install'}
+[3.429692] (pkg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uav_team/ROS2_curso/build/pkg_interfaces'], 'cwd': '/home/uav_team/ROS2_curso/build/pkg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uav_team'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uav_team/ROS2_curso/install/pkg_interfaces/lib:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uav_team'), ('OLDPWD', '/home/uav_team'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1706'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1010/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/uav_team/ROS2_curso/install:/home/uav_team/cbr_2024/ros2_drone_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uav_team'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uav_team'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/acso-DC5A-S-1:@/tmp/.ICE-unix/1681,unix/acso-DC5A-S-1:/tmp/.ICE-unix/1681'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a259dad2_e75b_4a65_98c2_aed0282d12b8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1010'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1010/.mutter-Xwaylandauth.GX8GP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1010/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uav_team/ROS2_curso/install/pkg_interfaces:/home/uav_team/ROS2_curso/install/pkg_treinamento:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_tello_state:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_interfaces:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_controller:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_camera:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uav_team/ROS2_curso/build/pkg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages:/home/uav_team/ROS2_curso/install/pkg_treinamento/lib/python3.10/site-packages:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/uav_team/ROS2_curso/install/pkg_interfaces:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_tello_state:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_interfaces:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_controller:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_bringup:/home/uav_team/ROS2_curso/install/pkg_treinamento:/home/uav_team/cbr_2024/ros2_drone_ws/install/drone_camera:/opt/ros/humble')]), 'shell': False}
+[3.439080] (pkg_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.439365] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/ament_index/resource_index/rosidl_interfaces/pkg_interfaces\n'}
+[3.439486] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces\n'}
+[3.439614] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg\n'}
+[3.439710] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.439788] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail\n'}
+[3.439871] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__struct.h\n'}
+[3.439945] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__functions.c\n'}
+[3.440018] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__functions.h\n'}
+[3.440124] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[3.440207] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/hardware_status.h\n'}
+[3.440317] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv\n'}
+[3.440405] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail\n'}
+[3.440512] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__functions.h\n'}
+[3.440662] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__struct.h\n'}
+[3.440752] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c\n'}
+[3.440828] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.h\n'}
+[3.440899] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/compute_rectangle_area.h\n'}
+[3.440970] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/library_path.sh\n'}
+[3.441033] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/library_path.dsv\n'}
+[3.441299] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_c.so\n'}
+[3.441704] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_c.so" to ""\n'}
+[3.441765] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces\n'}
+[3.441830] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg\n'}
+[3.441906] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.441971] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail\n'}
+[3.442024] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.442095] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv\n'}
+[3.442173] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail\n'}
+[3.442226] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h\n'}
+[3.442403] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.442838] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.442922] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces\n'}
+[3.443008] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg\n'}
+[3.443061] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail\n'}
+[3.443113] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[3.443194] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[3.443281] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.443362] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv\n'}
+[3.443428] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail\n'}
+[3.443480] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.c\n'}
+[3.443548] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h\n'}
+[3.443768] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.444164] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.444327] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_c.so\n'}
+[3.444750] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[3.444892] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces\n'}
+[3.444951] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg\n'}
+[3.445003] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail\n'}
+[3.445068] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[3.445119] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[3.445194] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[3.445348] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/hardware_status.hpp\n'}
+[3.445480] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv\n'}
+[3.445597] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail\n'}
+[3.445673] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__builder.hpp\n'}
+[3.445727] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__traits.hpp\n'}
+[3.445799] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__struct.hpp\n'}
+[3.445914] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/compute_rectangle_area.hpp\n'}
+[3.446054] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces\n'}
+[3.446153] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg\n'}
+[3.446233] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.446284] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail\n'}
+[3.446366] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.446444] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/dds_fastrtps\n'}
+[3.446499] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv\n'}
+[3.446558] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail\n'}
+[3.446615] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/dds_fastrtps\n'}
+[3.446692] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.446847] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.447392] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.447503] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces\n'}
+[3.447584] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg\n'}
+[3.447635] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail\n'}
+[3.447686] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.447753] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__type_support.cpp\n'}
+[3.447881] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv\n'}
+[3.447949] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail\n'}
+[3.448010] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.448091] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.cpp\n'}
+[3.448415] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.448856] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.449019] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.449424] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[3.449530] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.sh\n'}
+[3.449610] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.dsv\n'}
+[3.449667] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info\n'}
+[3.449730] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.449838] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.449996] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.450119] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.450304] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces\n'}
+[3.450381] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.450550] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.450724] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.450903] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.451077] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/libpkg_interfaces__rosidl_generator_py.so\n'}
+[3.451263] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg\n'}
+[3.451335] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/_hardware_status_s.c\n'}
+[3.451476] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/_hardware_status.py\n'}
+[3.451632] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/__init__.py\n'}
+[3.451780] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.451951] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/__init__.py\n'}
+[3.452075] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.452244] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv\n'}
+[3.452342] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_compute_rectangle_area.py\n'}
+[3.452484] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_compute_rectangle_area_s.c\n'}
+[3.452886] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/__init__.py\n'}
+[3.483604] (pkg_interfaces) StdoutLine: {'line': b"Listing '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces'...\n"}
+[3.483822] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/__init__.py'...\n"}
+[3.483903] (pkg_interfaces) StdoutLine: {'line': b"Listing '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg'...\n"}
+[3.483977] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/__init__.py'...\n"}
+[3.484055] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/_hardware_status.py'...\n"}
+[3.484130] (pkg_interfaces) StdoutLine: {'line': b"Listing '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv'...\n"}
+[3.484201] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/__init__.py'...\n"}
+[3.484272] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_compute_rectangle_area.py'...\n"}
+[3.488755] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.489114] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.489309] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.489672] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.489860] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.490236] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.490382] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_py.so\n'}
+[3.490833] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_py.so" to ""\n'}
+[3.490964] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/msg/HardwareStatus.idl\n'}
+[3.491063] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/srv/ComputeRectangleArea.idl\n'}
+[3.491163] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/msg/HardwareStatus.msg\n'}
+[3.491264] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/srv/ComputeRectangleArea.srv\n'}
+[3.491349] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/srv/ComputeRectangleArea_Request.msg\n'}
+[3.491493] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/srv/ComputeRectangleArea_Response.msg\n'}
+[3.491683] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/ament_index/resource_index/package_run_dependencies/pkg_interfaces\n'}
+[3.491780] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/ament_index/resource_index/parent_prefix_path/pkg_interfaces\n'}
+[3.491905] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/ament_prefix_path.sh\n'}
+[3.491974] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.492133] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/path.sh\n'}
+[3.492212] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/path.dsv\n'}
+[3.492380] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/local_setup.bash\n'}
+[3.492472] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/local_setup.sh\n'}
+[3.492574] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/local_setup.zsh\n'}
+[3.492636] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/local_setup.dsv\n'}
+[3.492711] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.dsv\n'}
+[3.492886] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/ament_index/resource_index/packages/pkg_interfaces\n'}
+[3.493005] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.493113] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.493198] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.493251] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.493326] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.493392] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.493485] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.493539] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.493613] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.493676] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.493749] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.493814] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.493883] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.493959] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.494029] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.494100] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.494164] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.494230] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.494391] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.494456] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.494517] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.494589] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.494656] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.494744] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.494812] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfacesConfig.cmake\n'}
+[3.494864] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfacesConfig-version.cmake\n'}
+[3.494914] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.xml\n'}
+[3.497330] (pkg_interfaces) CommandEnded: {'returncode': 0}
+[3.505955] (-) TimerEvent: {}
+[3.606184] (-) TimerEvent: {}
+[3.611502] (pkg_interfaces) JobEnded: {'identifier': 'pkg_interfaces', 'rc': 0}
+[3.612139] (-) EventReactorShutdown: {}
