@@ -181,16 +181,18 @@ struct CalculadoraSrv_Response_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->resultado = 0.0;
+      this->status = "";
     }
   }
 
   explicit CalculadoraSrv_Response_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : status(_alloc)
   {
-    (void)_alloc;
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->resultado = 0.0;
+      this->status = "";
     }
   }
 
@@ -198,12 +200,21 @@ struct CalculadoraSrv_Response_
   using _resultado_type =
     double;
   _resultado_type resultado;
+  using _status_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _status_type status;
 
   // setters for named parameter idiom
   Type & set__resultado(
     const double & _arg)
   {
     this->resultado = _arg;
+    return *this;
+  }
+  Type & set__status(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->status = _arg;
     return *this;
   }
 
@@ -250,6 +261,9 @@ struct CalculadoraSrv_Response_
   bool operator==(const CalculadoraSrv_Response_ & other) const
   {
     if (this->resultado != other.resultado) {
+      return false;
+    }
+    if (this->status != other.status) {
       return false;
     }
     return true;

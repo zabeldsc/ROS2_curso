@@ -289,6 +289,8 @@ cdr_serialize(
 {
   // Member: resultado
   cdr << ros_message.resultado;
+  // Member: status
+  cdr << ros_message.status;
   return true;
 }
 
@@ -300,6 +302,9 @@ cdr_deserialize(
 {
   // Member: resultado
   cdr >> ros_message.resultado;
+
+  // Member: status
+  cdr >> ros_message.status;
 
   return true;
 }
@@ -323,6 +328,10 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+  // Member: status
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.status.size() + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -356,6 +365,19 @@ max_serialized_size_CalculadoraSrv_Response(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
+  // Member: status
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -364,7 +386,7 @@ max_serialized_size_CalculadoraSrv_Response(
     using DataType = pkg_interfaces::srv::CalculadoraSrv_Response;
     is_plain =
       (
-      offsetof(DataType, resultado) +
+      offsetof(DataType, status) +
       last_member_size
       ) == ret_val;
   }

@@ -266,6 +266,11 @@ pkg_interfaces__srv__CalculadoraSrv_Request__Sequence__copy(
 }
 
 
+// Include directives for member types
+// Member `status`
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"
+
 bool
 pkg_interfaces__srv__CalculadoraSrv_Response__init(pkg_interfaces__srv__CalculadoraSrv_Response * msg)
 {
@@ -273,6 +278,11 @@ pkg_interfaces__srv__CalculadoraSrv_Response__init(pkg_interfaces__srv__Calculad
     return false;
   }
   // resultado
+  // status
+  if (!rosidl_runtime_c__String__init(&msg->status)) {
+    pkg_interfaces__srv__CalculadoraSrv_Response__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -283,6 +293,8 @@ pkg_interfaces__srv__CalculadoraSrv_Response__fini(pkg_interfaces__srv__Calculad
     return;
   }
   // resultado
+  // status
+  rosidl_runtime_c__String__fini(&msg->status);
 }
 
 bool
@@ -293,6 +305,12 @@ pkg_interfaces__srv__CalculadoraSrv_Response__are_equal(const pkg_interfaces__sr
   }
   // resultado
   if (lhs->resultado != rhs->resultado) {
+    return false;
+  }
+  // status
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->status), &(rhs->status)))
+  {
     return false;
   }
   return true;
@@ -308,6 +326,12 @@ pkg_interfaces__srv__CalculadoraSrv_Response__copy(
   }
   // resultado
   output->resultado = input->resultado;
+  // status
+  if (!rosidl_runtime_c__String__copy(
+      &(input->status), &(output->status)))
+  {
+    return false;
+  }
   return true;
 }
 

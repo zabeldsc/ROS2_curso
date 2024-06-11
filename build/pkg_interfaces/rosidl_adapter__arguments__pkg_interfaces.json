@@ -1,8 +1,8 @@
 {
   "package_name": "pkg_interfaces",
   "non_idl_tuples": [
-    "/home/isabel/ROS2_curso/src/pkg_interfaces:msg/HardwareStatus.msg",
-    "/home/isabel/ROS2_curso/src/pkg_interfaces:srv/ComputeRectangleArea.srv",
-    "/home/isabel/ROS2_curso/src/pkg_interfaces:srv/CalculadoraSrv.srv"
+    "/home/isabel/Repositorios/ROS2_curso/src/pkg_interfaces:msg/HardwareStatus.msg",
+    "/home/isabel/Repositorios/ROS2_curso/src/pkg_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/isabel/Repositorios/ROS2_curso/src/pkg_interfaces:srv/CalculadoraSrv.srv"
   ]
 }

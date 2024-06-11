@@ -190,7 +190,7 @@ void CalculadoraSrv_Response_fini_function(void * message_memory)
   typed_message->~CalculadoraSrv_Response();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember CalculadoraSrv_Response_message_member_array[1] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember CalculadoraSrv_Response_message_member_array[2] = {
   {
     "resultado",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
@@ -207,13 +207,30 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CalculadoraSr
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "status",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(pkg_interfaces::srv::CalculadoraSrv_Response, status),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers CalculadoraSrv_Response_message_members = {
   "pkg_interfaces::srv",  // message namespace
   "CalculadoraSrv_Response",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(pkg_interfaces::srv::CalculadoraSrv_Response),
   CalculadoraSrv_Response_message_member_array,  // message members
   CalculadoraSrv_Response_init_function,  // function to initialize message memory (memory has to be allocated)

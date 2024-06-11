@@ -166,6 +166,11 @@ PyObject * pkg_interfaces__srv__calculadora_srv__request__convert_to_py(void * r
 // already included above
 // #include "pkg_interfaces/srv/detail/calculadora_srv__functions.h"
 
+// already included above
+// #include "rosidl_runtime_c/string.h"
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"
+
 
 ROSIDL_GENERATOR_C_EXPORT
 bool pkg_interfaces__srv__calculadora_srv__response__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -209,6 +214,21 @@ bool pkg_interfaces__srv__calculadora_srv__response__convert_from_py(PyObject * 
     ros_message->resultado = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
+  {  // status
+    PyObject * field = PyObject_GetAttrString(_pymsg, "status");
+    if (!field) {
+      return false;
+    }
+    assert(PyUnicode_Check(field));
+    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
+    if (!encoded_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    rosidl_runtime_c__String__assign(&ros_message->status, PyBytes_AS_STRING(encoded_field));
+    Py_DECREF(encoded_field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -236,6 +256,23 @@ PyObject * pkg_interfaces__srv__calculadora_srv__response__convert_to_py(void * 
     field = PyFloat_FromDouble(ros_message->resultado);
     {
       int rc = PyObject_SetAttrString(_pymessage, "resultado", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // status
+    PyObject * field = NULL;
+    field = PyUnicode_DecodeUTF8(
+      ros_message->status.data,
+      strlen(ros_message->status.data),
+      "replace");
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "status", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

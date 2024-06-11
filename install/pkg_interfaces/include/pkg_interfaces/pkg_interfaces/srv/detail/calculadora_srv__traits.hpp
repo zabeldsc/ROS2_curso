@@ -155,6 +155,13 @@ inline void to_flow_style_yaml(
   {
     out << "resultado: ";
     rosidl_generator_traits::value_to_yaml(msg.resultado, out);
+    out << ", ";
+  }
+
+  // member: status
+  {
+    out << "status: ";
+    rosidl_generator_traits::value_to_yaml(msg.status, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -170,6 +177,16 @@ inline void to_block_style_yaml(
     }
     out << "resultado: ";
     rosidl_generator_traits::value_to_yaml(msg.resultado, out);
+    out << "\n";
+  }
+
+  // member: status
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "status: ";
+    rosidl_generator_traits::value_to_yaml(msg.status, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
@@ -220,11 +237,11 @@ inline const char * name<pkg_interfaces::srv::CalculadoraSrv_Response>()
 
 template<>
 struct has_fixed_size<pkg_interfaces::srv::CalculadoraSrv_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<pkg_interfaces::srv::CalculadoraSrv_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<pkg_interfaces::srv::CalculadoraSrv_Response>

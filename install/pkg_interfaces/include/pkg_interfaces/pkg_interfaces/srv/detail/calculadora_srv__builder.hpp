@@ -95,16 +95,32 @@ namespace srv
 namespace builder
 {
 
+class Init_CalculadoraSrv_Response_status
+{
+public:
+  explicit Init_CalculadoraSrv_Response_status(::pkg_interfaces::srv::CalculadoraSrv_Response & msg)
+  : msg_(msg)
+  {}
+  ::pkg_interfaces::srv::CalculadoraSrv_Response status(::pkg_interfaces::srv::CalculadoraSrv_Response::_status_type arg)
+  {
+    msg_.status = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::pkg_interfaces::srv::CalculadoraSrv_Response msg_;
+};
+
 class Init_CalculadoraSrv_Response_resultado
 {
 public:
   Init_CalculadoraSrv_Response_resultado()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::pkg_interfaces::srv::CalculadoraSrv_Response resultado(::pkg_interfaces::srv::CalculadoraSrv_Response::_resultado_type arg)
+  Init_CalculadoraSrv_Response_status resultado(::pkg_interfaces::srv::CalculadoraSrv_Response::_resultado_type arg)
   {
     msg_.resultado = std::move(arg);
-    return std::move(msg_);
+    return Init_CalculadoraSrv_Response_status(msg_);
   }
 
 private:

@@ -138,6 +138,11 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 // #include "pkg_interfaces/srv/detail/calculadora_srv__struct.h"
 
 
+// Include directives for member types
+// Member `status`
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -157,7 +162,7 @@ void pkg_interfaces__srv__CalculadoraSrv_Response__rosidl_typesupport_introspect
   pkg_interfaces__srv__CalculadoraSrv_Response__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember pkg_interfaces__srv__CalculadoraSrv_Response__rosidl_typesupport_introspection_c__CalculadoraSrv_Response_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember pkg_interfaces__srv__CalculadoraSrv_Response__rosidl_typesupport_introspection_c__CalculadoraSrv_Response_message_member_array[2] = {
   {
     "resultado",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
@@ -174,13 +179,30 @@ static rosidl_typesupport_introspection_c__MessageMember pkg_interfaces__srv__Ca
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "status",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(pkg_interfaces__srv__CalculadoraSrv_Response, status),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers pkg_interfaces__srv__CalculadoraSrv_Response__rosidl_typesupport_introspection_c__CalculadoraSrv_Response_message_members = {
   "pkg_interfaces__srv",  // message namespace
   "CalculadoraSrv_Response",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(pkg_interfaces__srv__CalculadoraSrv_Response),
   pkg_interfaces__srv__CalculadoraSrv_Response__rosidl_typesupport_introspection_c__CalculadoraSrv_Response_message_member_array,  // message members
   pkg_interfaces__srv__CalculadoraSrv_Response__rosidl_typesupport_introspection_c__CalculadoraSrv_Response_init_function,  // function to initialize message memory (memory has to be allocated)

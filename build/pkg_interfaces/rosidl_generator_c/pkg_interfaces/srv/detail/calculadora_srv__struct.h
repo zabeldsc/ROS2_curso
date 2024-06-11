@@ -42,10 +42,16 @@ typedef struct pkg_interfaces__srv__CalculadoraSrv_Request__Sequence
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'status'
+// already included above
+// #include "rosidl_runtime_c/string.h"
+
 /// Struct defined in srv/CalculadoraSrv in the package pkg_interfaces.
 typedef struct pkg_interfaces__srv__CalculadoraSrv_Response
 {
   double resultado;
+  rosidl_runtime_c__String status;
 } pkg_interfaces__srv__CalculadoraSrv_Response;
 
 // Struct for a sequence of pkg_interfaces__srv__CalculadoraSrv_Response.
