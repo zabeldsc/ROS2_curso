@@ -31,7 +31,11 @@ class CalculadoraBasica(Node):
         except Exception as e:
             response.status = "Operação não realizada!"
 
-        self._displaymsg.data = f'{request.operando1} {request.operador} {request.operando2} = {response.resultado}'
+        if response.status == 'Operação realizada!':
+            self._displaymsg.data = f'{request.operando1} {request.operador} {request.operando2} = {response.resultado}'
+        else:
+            self._displaymsg.data = 'Operação não realizada!'
+            
         self._timer = self.create_timer(0.5, self.publish_message)
         return response
     
