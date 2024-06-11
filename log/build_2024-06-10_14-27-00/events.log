@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000199] (-) JobUnselected: {'identifier': 'pkg_interfaces'}
-[0.000226] (pkg_treinamento) JobQueued: {'identifier': 'pkg_treinamento', 'dependencies': OrderedDict([('pkg_interfaces', '/home/uav_team/ROS2_curso/install/pkg_interfaces')])}
-[0.000404] (pkg_treinamento) JobStarted: {'identifier': 'pkg_treinamento'}
-[0.008113] (pkg_treinamento) JobEnded: {'identifier': 'pkg_treinamento', 'rc': 1}
-[0.018654] (-) EventReactorShutdown: {}
