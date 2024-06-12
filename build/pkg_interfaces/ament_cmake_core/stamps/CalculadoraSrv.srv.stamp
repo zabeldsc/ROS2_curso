@@ -1,6 +1,0 @@
-float64 operando1
-float64 operando2
-string operador
----
-float64 resultado
-string status

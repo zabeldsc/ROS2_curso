@@ -1,1 +1,0 @@
-/home/uav_team/ROS2_curso/build/pkg_launch/ament_cmake_core/pkg_launchConfig-version.cmake

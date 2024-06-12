@@ -1,1 +1,0 @@
-/home/uav_team/ROS2_curso/src/pkg_launch/launch/calculatorapp.launch.py
