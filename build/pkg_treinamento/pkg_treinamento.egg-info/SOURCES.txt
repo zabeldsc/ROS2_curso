@@ -11,6 +11,7 @@ setup.py
 pkg_treinamento/__init__.py
 pkg_treinamento/calculadorabasica.py
 pkg_treinamento/calculatorclient.py
+pkg_treinamento/calculatorclientparam.py
 pkg_treinamento/calculatorserver.py
 pkg_treinamento/counter10.py
 pkg_treinamento/educadora.py

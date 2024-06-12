@@ -1,11 +1,11 @@
 {
   "package_name": "pkg_interfaces",
-  "output_dir": "/home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces",
+  "output_dir": "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces/rosidl_adapter/pkg_interfaces:msg/HardwareStatus.idl",
-    "/home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces/rosidl_adapter/pkg_interfaces:srv/ComputeRectangleArea.idl",
-    "/home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces/rosidl_adapter/pkg_interfaces:srv/CalculadoraSrv.idl"
+    "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_adapter/pkg_interfaces:msg/HardwareStatus.idl",
+    "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_adapter/pkg_interfaces:srv/ComputeRectangleArea.idl",
+    "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_adapter/pkg_interfaces:srv/CalculadoraSrv.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -21,8 +21,8 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces/rosidl_adapter/pkg_interfaces/msg/HardwareStatus.idl",
-    "/home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces/rosidl_adapter/pkg_interfaces/srv/ComputeRectangleArea.idl",
-    "/home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces/rosidl_adapter/pkg_interfaces/srv/CalculadoraSrv.idl"
+    "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_adapter/pkg_interfaces/msg/HardwareStatus.idl",
+    "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_adapter/pkg_interfaces/srv/ComputeRectangleArea.idl",
+    "/home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_adapter/pkg_interfaces/srv/CalculadoraSrv.idl"
   ]
 }

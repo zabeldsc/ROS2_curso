@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/isabel/Repositorios/ROS2_curso/src/pkg_interfaces
+CMAKE_SOURCE_DIR = /home/uav_team/ROS2_curso/src/pkg_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces
+CMAKE_BINARY_DIR = /home/uav_team/ROS2_curso/build/pkg_interfaces
 
 # Utility rule file for ament_cmake_python_copy_pkg_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_pkg_interfaces.dir/compiler_depend.ma
 include CMakeFiles/ament_cmake_python_copy_pkg_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_pkg_interfaces:
-	/usr/bin/cmake -E copy_directory /home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces /home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces/ament_cmake_python/pkg_interfaces/pkg_interfaces
+	/usr/bin/cmake -E copy_directory /home/uav_team/ROS2_curso/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces /home/uav_team/ROS2_curso/build/pkg_interfaces/ament_cmake_python/pkg_interfaces/pkg_interfaces
 
 ament_cmake_python_copy_pkg_interfaces: CMakeFiles/ament_cmake_python_copy_pkg_interfaces
 ament_cmake_python_copy_pkg_interfaces: CMakeFiles/ament_cmake_python_copy_pkg_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_pkg_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_pkg_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_pkg_interfaces.dir/depend:
-	cd /home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isabel/Repositorios/ROS2_curso/src/pkg_interfaces /home/isabel/Repositorios/ROS2_curso/src/pkg_interfaces /home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces /home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces /home/isabel/Repositorios/ROS2_curso/build/pkg_interfaces/CMakeFiles/ament_cmake_python_copy_pkg_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uav_team/ROS2_curso/build/pkg_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uav_team/ROS2_curso/src/pkg_interfaces /home/uav_team/ROS2_curso/src/pkg_interfaces /home/uav_team/ROS2_curso/build/pkg_interfaces /home/uav_team/ROS2_curso/build/pkg_interfaces /home/uav_team/ROS2_curso/build/pkg_interfaces/CMakeFiles/ament_cmake_python_copy_pkg_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_pkg_interfaces.dir/depend
 

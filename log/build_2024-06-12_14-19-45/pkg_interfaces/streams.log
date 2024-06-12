@@ -1,0 +1,299 @@
+[0.010s] Invoking command in '/home/uav_team/ROS2_curso/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uav_team/ROS2_curso/install/pkg_treinamento:/opt/ros/humble /usr/bin/cmake /home/uav_team/ROS2_curso/src/pkg_interfaces -DCMAKE_INSTALL_PREFIX=/home/uav_team/ROS2_curso/install/pkg_interfaces
+[0.142s] -- The C compiler identification is GNU 11.4.0
+[0.273s] -- The CXX compiler identification is GNU 11.4.0
+[0.284s] -- Detecting C compiler ABI info
+[0.362s] -- Detecting C compiler ABI info - done
+[0.369s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.369s] -- Detecting C compile features
+[0.370s] -- Detecting C compile features - done
+[0.374s] -- Detecting CXX compiler ABI info
+[0.458s] -- Detecting CXX compiler ABI info - done
+[0.464s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.465s] -- Detecting CXX compile features
+[0.465s] -- Detecting CXX compile features - done
+[0.472s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.606s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.697s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.710s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.025s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.428s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.430s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.456s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.456s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.456s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.456s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.475s] -- Found PythonExtra: .so  
+[1.515s] -- Configuring done
+[1.546s] -- Generating done
+[1.548s] -- Build files have been written to: /home/uav_team/ROS2_curso/build/pkg_interfaces
+[1.556s] Invoked command in '/home/uav_team/ROS2_curso/build/pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uav_team/ROS2_curso/install/pkg_treinamento:/opt/ros/humble /usr/bin/cmake /home/uav_team/ROS2_curso/src/pkg_interfaces -DCMAKE_INSTALL_PREFIX=/home/uav_team/ROS2_curso/install/pkg_interfaces
+[1.558s] Invoking command in '/home/uav_team/ROS2_curso/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uav_team/ROS2_curso/install/pkg_treinamento:/opt/ros/humble /usr/bin/cmake --build /home/uav_team/ROS2_curso/build/pkg_interfaces -- -j8 -l8
+[1.598s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.608s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.617s] [  4%] Built target ament_cmake_python_copy_pkg_interfaces
+[1.839s] running egg_info
+[1.839s] creating pkg_interfaces.egg-info
+[1.839s] writing pkg_interfaces.egg-info/PKG-INFO
+[1.840s] writing dependency_links to pkg_interfaces.egg-info/dependency_links.txt
+[1.840s] writing top-level names to pkg_interfaces.egg-info/top_level.txt
+[1.840s] writing manifest file 'pkg_interfaces.egg-info/SOURCES.txt'
+[1.843s] reading manifest file 'pkg_interfaces.egg-info/SOURCES.txt'
+[1.843s] writing manifest file 'pkg_interfaces.egg-info/SOURCES.txt'
+[1.876s] [  4%] Built target ament_cmake_python_build_pkg_interfaces_egg
+[1.958s] [  4%] Built target pkg_interfaces__cpp
+[1.969s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.970s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.971s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.990s] [ 17%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c.o[0m
+[1.990s] [ 17%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/msg/detail/hardware_status__functions.c.o[0m
+[1.990s] [ 17%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/calculadora_srv__functions.c.o[0m
+[2.087s] [ 19%] [32m[1mLinking C shared library libpkg_interfaces__rosidl_generator_c.so[0m
+[2.127s] [ 19%] Built target pkg_interfaces__rosidl_generator_c
+[2.147s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.147s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.147s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.312s] [ 27%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[2.312s] [ 29%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_interfaces/srv/compute_rectangle_area__type_support.cpp.o[0m
+[2.323s] [ 31%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_interfaces/srv/calculadora_srv__type_support.cpp.o[0m
+[2.457s] [ 34%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_interfaces/msg/detail/hardware_status__type_support.cpp.o[0m
+[2.518s] [ 36%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[2.593s] [ 38%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[2.647s] [ 40%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_interfaces/srv/compute_rectangle_area__type_support.cpp.o[0m
+[2.695s] [ 42%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_interfaces/srv/calculadora_srv__type_support.cpp.o[0m
+[2.745s] [ 44%] [32m[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_c.so[0m
+[2.754s] [ 46%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[2.759s] [ 48%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.c.o[0m
+[2.776s] [ 51%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o[0m
+[2.797s] [ 53%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_interfaces/msg/detail/hardware_status__type_support_c.cpp.o[0m
+[2.804s] [ 55%] [32m[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_cpp.so[0m
+[2.805s] [ 57%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/calculadora_srv__type_support.c.o[0m
+[2.811s] [ 57%] Built target pkg_interfaces__rosidl_typesupport_c
+[2.814s] [ 59%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o[0m
+[2.826s] [ 61%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_interfaces/srv/detail/calculadora_srv__type_support_c.cpp.o[0m
+[2.866s] [ 63%] [32m[1mLinking C shared library libpkg_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.884s] [ 63%] Built target pkg_interfaces__rosidl_typesupport_cpp
+[2.900s] [ 65%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_interfaces/srv/detail/dds_fastrtps/calculadora_srv__type_support.cpp.o[0m
+[2.917s] [ 65%] Built target pkg_interfaces__rosidl_typesupport_introspection_c
+[2.933s] [ 68%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o[0m
+[3.045s] [ 70%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_interfaces/srv/detail/calculadora_srv__type_support.cpp.o[0m
+[3.329s] [ 72%] [32m[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.438s] [ 72%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_c
+[3.441s] [ 74%] [32m[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.497s] [ 76%] [32m[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.538s] [ 76%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.574s] [ 76%] Built target pkg_interfaces__rosidl_typesupport_introspection_cpp
+[3.595s] [ 76%] Built target pkg_interfaces
+[3.617s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.096s] [ 78%] Built target pkg_interfaces__py
+[4.117s] [ 85%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pkg_interfaces/msg/_hardware_status_s.c.o[0m
+[4.117s] [ 85%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pkg_interfaces/srv/_calculadora_srv_s.c.o[0m
+[4.117s] [ 85%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pkg_interfaces/srv/_compute_rectangle_area_s.c.o[0m
+[4.255s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/pkg_interfaces/libpkg_interfaces__rosidl_generator_py.so[0m
+[4.296s] [ 87%] Built target pkg_interfaces__rosidl_generator_py
+[4.317s] [ 93%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.317s] [ 93%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.317s] [ 93%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.417s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.417s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.425s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.452s] [100%] Built target pkg_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.452s] [100%] Built target pkg_interfaces__rosidl_typesupport_c__pyext
+[4.463s] [100%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.476s] Invoked command in '/home/uav_team/ROS2_curso/build/pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uav_team/ROS2_curso/install/pkg_treinamento:/opt/ros/humble /usr/bin/cmake --build /home/uav_team/ROS2_curso/build/pkg_interfaces -- -j8 -l8
+[4.597s] Invoking command in '/home/uav_team/ROS2_curso/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uav_team/ROS2_curso/install/pkg_treinamento:/opt/ros/humble /usr/bin/cmake --install /home/uav_team/ROS2_curso/build/pkg_interfaces
+[4.605s] -- Install configuration: ""
+[4.605s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/ament_index/resource_index/rosidl_interfaces/pkg_interfaces
+[4.605s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces
+[4.605s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg
+[4.606s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.606s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail
+[4.606s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__struct.h
+[4.606s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__functions.c
+[4.606s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__functions.h
+[4.606s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__type_support.h
+[4.606s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/hardware_status.h
+[4.606s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv
+[4.606s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail
+[4.607s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/calculadora_srv__type_support.h
+[4.607s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__functions.h
+[4.607s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__struct.h
+[4.607s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/calculadora_srv__functions.c
+[4.607s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__functions.c
+[4.607s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/calculadora_srv__functions.h
+[4.607s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.h
+[4.608s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/calculadora_srv__struct.h
+[4.608s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/calculadora_srv.h
+[4.608s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/compute_rectangle_area.h
+[4.608s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/library_path.sh
+[4.608s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/library_path.dsv
+[4.609s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_c.so
+[4.609s] -- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_c.so" to ""
+[4.609s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces
+[4.609s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg
+[4.609s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.609s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail
+[4.609s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[4.609s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv
+[4.610s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail
+[4.610s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h
+[4.610s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/calculadora_srv__rosidl_typesupport_fastrtps_c.h
+[4.610s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.610s] -- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.610s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces
+[4.610s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg
+[4.610s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail
+[4.611s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__type_support.c
+[4.611s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[4.611s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.611s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv
+[4.611s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail
+[4.611s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.c
+[4.611s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/calculadora_srv__type_support.c
+[4.611s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/calculadora_srv__rosidl_typesupport_introspection_c.h
+[4.611s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
+[4.612s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_c.so
+[4.612s] -- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.612s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_c.so
+[4.612s] -- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_c.so" to ""
+[4.613s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces
+[4.613s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg
+[4.613s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail
+[4.613s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__traits.hpp
+[4.613s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__builder.hpp
+[4.613s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__struct.hpp
+[4.613s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/hardware_status.hpp
+[4.613s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv
+[4.613s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail
+[4.613s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__builder.hpp
+[4.613s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/calculadora_srv__traits.hpp
+[4.614s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+[4.614s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/calculadora_srv__builder.hpp
+[4.614s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/calculadora_srv__struct.hpp
+[4.614s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__struct.hpp
+[4.614s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/compute_rectangle_area.hpp
+[4.614s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/calculadora_srv.hpp
+[4.614s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces
+[4.614s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg
+[4.614s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.615s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail
+[4.615s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.615s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/dds_fastrtps
+[4.615s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv
+[4.615s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail
+[4.615s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/dds_fastrtps
+[4.615s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/calculadora_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[4.615s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp
+[4.615s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.616s] -- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.616s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces
+[4.616s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg
+[4.616s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail
+[4.616s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[4.616s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/hardware_status__type_support.cpp
+[4.616s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv
+[4.616s] -- Up-to-date: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail
+[4.616s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp
+[4.617s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/calculadora_srv__rosidl_typesupport_introspection_cpp.hpp
+[4.617s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/calculadora_srv__type_support.cpp
+[4.617s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/compute_rectangle_area__type_support.cpp
+[4.617s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.617s] -- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.617s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_cpp.so
+[4.618s] -- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.618s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.sh
+[4.618s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.dsv
+[4.618s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info
+[4.618s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.619s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.619s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.619s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.619s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces
+[4.619s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.619s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.619s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.620s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_c.c
+[4.620s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/libpkg_interfaces__rosidl_generator_py.so
+[4.620s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg
+[4.620s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/_hardware_status_s.c
+[4.620s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/_hardware_status.py
+[4.620s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/__init__.py
+[4.620s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.621s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/__init__.py
+[4.621s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.621s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv
+[4.621s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_compute_rectangle_area.py
+[4.621s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_calculadora_srv.py
+[4.621s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_compute_rectangle_area_s.c
+[4.621s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/__init__.py
+[4.621s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_calculadora_srv_s.c
+[4.653s] Listing '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces'...
+[4.653s] Compiling '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/__init__.py'...
+[4.653s] Listing '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg'...
+[4.653s] Compiling '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/__init__.py'...
+[4.653s] Compiling '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/_hardware_status.py'...
+[4.653s] Listing '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv'...
+[4.653s] Compiling '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/__init__.py'...
+[4.653s] Compiling '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_calculadora_srv.py'...
+[4.653s] Compiling '/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_compute_rectangle_area.py'...
+[4.658s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.658s] -- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.658s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.658s] -- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.659s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.659s] -- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.659s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_py.so
+[4.659s] -- Set runtime path of "/home/uav_team/ROS2_curso/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_py.so" to ""
+[4.660s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/msg/HardwareStatus.idl
+[4.660s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/srv/ComputeRectangleArea.idl
+[4.660s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/srv/CalculadoraSrv.idl
+[4.660s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/msg/HardwareStatus.msg
+[4.660s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/srv/ComputeRectangleArea.srv
+[4.660s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/srv/ComputeRectangleArea_Request.msg
+[4.661s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/srv/ComputeRectangleArea_Response.msg
+[4.661s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/srv/CalculadoraSrv.srv
+[4.661s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/srv/CalculadoraSrv_Request.msg
+[4.661s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/srv/CalculadoraSrv_Response.msg
+[4.661s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/ament_index/resource_index/package_run_dependencies/pkg_interfaces
+[4.661s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/ament_index/resource_index/parent_prefix_path/pkg_interfaces
+[4.662s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/ament_prefix_path.sh
+[4.662s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/ament_prefix_path.dsv
+[4.662s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/path.sh
+[4.662s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/environment/path.dsv
+[4.662s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/local_setup.bash
+[4.662s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/local_setup.sh
+[4.663s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/local_setup.zsh
+[4.663s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/local_setup.dsv
+[4.663s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.dsv
+[4.663s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/ament_index/resource_index/packages/pkg_interfaces
+[4.663s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cExport.cmake
+[4.663s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.664s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.664s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.664s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.664s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.664s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cExport.cmake
+[4.664s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.665s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cppExport.cmake
+[4.665s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.665s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.665s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.665s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.665s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cppExport.cmake
+[4.666s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.666s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_pyExport.cmake
+[4.666s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.666s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.666s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.666s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.666s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.667s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.667s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.667s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.667s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfacesConfig.cmake
+[4.667s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfacesConfig-version.cmake
+[4.667s] -- Installing: /home/uav_team/ROS2_curso/install/pkg_interfaces/share/pkg_interfaces/package.xml
+[4.670s] Invoked command in '/home/uav_team/ROS2_curso/build/pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uav_team/ROS2_curso/install/pkg_treinamento:/opt/ros/humble /usr/bin/cmake --install /home/uav_team/ROS2_curso/build/pkg_interfaces

@@ -1,6 +1,7 @@
 [console_scripts]
 calculadorabasica = pkg_treinamento.calculadorabasica:main
 calculatorclient = pkg_treinamento.calculatorclient:main
+calculatorclientparam = pkg_treinamento.calculatorclientparam:main
 calculatorserver = pkg_treinamento.calculatorserver:main
 educadora = pkg_treinamento.educadora:main
 geocalcserver = pkg_treinamento.geocalcserver:main

@@ -1,0 +1,9 @@
+/home/uav_team/ROS2_curso/build/pkg_launch/CMakeFiles/uninstall.dir
+/home/uav_team/ROS2_curso/build/pkg_launch/CMakeFiles/pkg_launch_uninstall.dir
+/home/uav_team/ROS2_curso/build/pkg_launch/CMakeFiles/test.dir
+/home/uav_team/ROS2_curso/build/pkg_launch/CMakeFiles/edit_cache.dir
+/home/uav_team/ROS2_curso/build/pkg_launch/CMakeFiles/rebuild_cache.dir
+/home/uav_team/ROS2_curso/build/pkg_launch/CMakeFiles/list_install_components.dir
+/home/uav_team/ROS2_curso/build/pkg_launch/CMakeFiles/install.dir
+/home/uav_team/ROS2_curso/build/pkg_launch/CMakeFiles/install/local.dir
+/home/uav_team/ROS2_curso/build/pkg_launch/CMakeFiles/install/strip.dir
